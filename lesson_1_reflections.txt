@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+The isolated lines of text side by side allowed me to quickly scan for
+changes without actively reading the text.
+
+How could having easy access to the entire history of a file make you
+a more efficient programmer in the long term?
+
+You can easily compare versions to see where you may have made
+positive or negative changes to your code. You can quickly reference a
+feature that you removed or added in a previous version for reuse.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google Docs does?
+
+Manually saving allows you to make logical saves based on the type of
+change. Automatically saving avoids the risk of losing unsaved code and
+is convenient in that you don't need to focus on saving each change
+however the changes are not logically tied to the type of change
+making it more difficult to track specific changes.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?
+
+Git saves repositories of interrelated files where google saves
+individual documents. Git does this so that files which have a
+relationship (where code in one file effects another) can be 
+saved simultaneously. Google docs does not focus on interrelated
+documents.
+
+
+How can you use the commands git log and git diff to view the history
+of files?
+
+Git log will show a running history or commits with a unique identifier
+where git diff will allow you to compare the commits using their
+identifiers (differences are shown with a + or - before the line of
+code that changed)
+
+How might using version control make you more confident to make
+changes that could break something?
+
+Having the ability to checkout previous versions of a program
+makes it so that you can revert your recently broken version to the one before it that was still functioning; from here you can continue
+developing a new branch or simply look for what changes occured.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+I want to use Git to build and revise awesome android applications!
