@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do 
+it?
+
+When you initialize a repository, Git creates a hiddin .git file in the
+specified directory which contains the metadata for the repository and 
+is the master file.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area allows you to organize the content of a single commit
+accross multiple files. This serves as a prep and organizational tool
+to make sure that each commit is logical and contains the appropriate 
+files before moving on.
