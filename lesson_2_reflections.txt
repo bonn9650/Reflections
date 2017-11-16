@@ -12,3 +12,44 @@ The staging area allows you to organize the content of a single commit
 accross multiple files. This serves as a prep and organizational tool
 to make sure that each commit is logical and contains the appropriate 
 files before moving on.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You can use Git diff to see any chages to files between the staging
+area and the working directory and git diff --staged for differences
+between the staging area and the actual repository; doing this allows
+you to review which changes (even if you have made multiple unrelated
+chages) you want per commit.
+
+What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+Branches could help you use existing code to make another version of
+your application. It could also be used to test some experimental
+changes or features of the app without altering your existing program.
+
+How do the diagrams help you visualize the branch structure?
+
+They help to show you what happends to your existing code when
+creating new branches from the master and how any new commits relate
+or don't relate.
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+Merging two branches adds the commits of one two the other 
+interweived chronologically. They are represented as different path
+names because the commits of each are separate until they have the 
+same branch label.
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+The auto merge feature makes combining changes on different lines quick
+however it can't tell which of the changes to the same line in two 
+branches should be kept; here is where manually merging may or may
+not save time as you may need to make a change to both files or you
+may not. 
+
+
